@@ -44,7 +44,9 @@ Open `index.html` in your web browser to view the Home page. Navigate to the Gal
 
 The website includes custom CSS animations and transitions to enhance user experience. FontAwesome icons are utilized for various UI elements, including a favicon for the website.
 
+## Sceenshots
 
+![Home Page](./images/4.png)
 
 
 ## Contact
