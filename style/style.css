@@ -1,167 +1,159 @@
-body{
-    padding: 0;
-    margin:0;
+body {
+  padding: 0;
+  margin: 0;
 }
 
 .dog-banner {
-   height: 550px;
-    background: url('../images/dog.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  height: 550px;
+  background: url("../images/dog.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .pets-intro img {
-    height: 360px;
+  height: 360px;
 }
 .pets-intro {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .info {
-    background-color: #EDA5AF;
-    min-height: 300px;
+  background-color: #eda5af;
+  min-height: 300px;
 }
 .info p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 24px;
-    padding: 10px;
-    cursor: pointer;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .p-wrapper {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .animated-paragraph {
-   background-color: rgba(255,255,255,.5);
-   transition: background-color 2s ease;
-   border-radius: 16px;
-       margin-top: 33px;
-    padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: background-color 2s ease;
+  border-radius: 16px;
+  margin-top: 33px;
+  padding: 20px;
 }
 
 .animated-paragraph:hover {
-    background-color: #ff006e;
-   
+  background-color: #ff006e;
 }
 
 .card-animation {
-    background-color: #ff006e !important;
-    transition: background-color 2s ease;
-    cursor: pointer;
-
+  background-color: #ff006e !important;
+  transition: background-color 2s ease;
+  cursor: pointer;
 }
 .card-animation:hover {
-    /* opacity: 1; */
-
-    background-color:transparent !important;
-    border: 1px solid #ff006e !important;
+  background-color: transparent !important;
+  border: 1px solid #ff006e !important;
 }
-
 
 /* grabbed this shape from a website :
  https://www.shapedivider.app/ */
 
- .custom-shape-divider-bottom-1715781316 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+.custom-shape-divider-bottom-1715781316 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1715781316 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
 }
 
 .custom-shape-divider-bottom-1715781316 .shape-fill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .table-wrapper {
-    padding: 22px;
+  padding: 22px;
 }
 .form-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.form-wrapper #textarea{
-    height: 220px;
+.form-wrapper #textarea {
+  height: 220px;
 }
 .footer {
-    background-color: #ff006e;
-    
- 
+  background-color: #ff006e;
 }
 .footer ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .footer li {
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 30px;
 }
-.footer a, .footera:visited {
-    color:white;
+.footer a,
+.footera:visited {
+  color: white;
 }
-.footer a:hover{
-    cursor: pointer;
-    color: pink;
+.footer a:hover {
+  cursor: pointer;
+  color: pink;
 }
 .footer h4 {
-padding-top: 15px;
+  padding-top: 15px;
 }
 .footer span {
-    color: darkslategray;
-    padding: 0 10px;
-    font-size: small;
+  color: darkslategray;
+  padding: 0 10px;
+  font-size: small;
 }
 
 .small-hippo {
-    animation: funnyMove 3s linear infinite;
+  animation: funnyMove 3s linear infinite;
 }
 
 .hippo {
-    font-size: 80px;
-    animation: funnyMove 3s linear infinite;
+  font-size: 80px;
+  animation: funnyMove 3s linear infinite;
 }
 .btn-pink {
-    background-color: #ff006e !important;
-    border: none;
+  background-color: #ff006e !important;
+  border: none;
 }
 
 @keyframes funnyMove {
-    0% {
-        transform: translateX(0) rotate(0deg);
-    }
-    25% {
-        transform: translateX(50px) rotate(15deg);
-    }
-    50% {
-        transform: translateX(100px) rotate(0deg);
-    }
-    75% {
-        transform: translateX(50px) rotate(-15deg);
-    }
-    100% {
-        transform: translateX(0) rotate(0deg);
-    }
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(50px) rotate(15deg);
+  }
+  50% {
+    transform: translateX(100px) rotate(0deg);
+  }
+  75% {
+    transform: translateX(50px) rotate(-15deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
 }
