@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin:0;
+}
+
+.dog-banner {
+   height: 550px;
+    background: url('../images/dog.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pets-intro img {
+    height: 360px;
+}
+.pets-intro {
+    display: flex;
+    justify-content: center;
+}
+.info {
+    background-color: #EDA5AF;
+    min-height: 300px;
+}
+.info p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.p-wrapper {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.animated-paragraph {
+   background-color: rgba(255,255,255,.5);
+   transition: background-color 2s ease;
+   border-radius: 16px;
+}
+
+.animated-paragraph:hover {
+    background-color: #ff006e;
+   
+}
+
+.card-animation {
+    background-color: #ff006e !important;
+    transition: background-color 2s ease;
+    cursor: pointer;
+
+}
+.card-animation:hover {
+    /* opacity: 1; */
+
+    background-color:transparent !important;
+    border: 1px solid #ff006e !important;
+}
+
+.footer {
+        background-color: #ff006e;
+        height: 100px;
+
+}
+
+
+/* grabbed this shape from a website :
+ https://www.shapedivider.app/ */
+
+ .custom-shape-divider-bottom-1715781316 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1715781316 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1715781316 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.table-wrapper {
+    padding: 22px;
+}
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-wrapper input:last-child{
+    height: 220px;
+}
