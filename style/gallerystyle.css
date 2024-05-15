@@ -1,0 +1,9 @@
+.gallery-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.gallery-margin {
+    margin-bottom: 135px;;
+}

@@ -62,12 +62,6 @@ body{
     border: 1px solid #ff006e !important;
 }
 
-.footer {
-        background-color: #ff006e;
-        height: 100px;
-
-}
-
 
 /* grabbed this shape from a website :
  https://www.shapedivider.app/ */
@@ -103,4 +97,37 @@ body{
 }
 .form-wrapper input:last-child{
     height: 220px;
+}
+.footer {
+    background-color: #ff006e;
+    
+ 
+}
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer li {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 30px;
+}
+.footer a, .footera:visited {
+    color:white;
+}
+.footer a:hover{
+    cursor: pointer;
+    color: pink;
+}
+.footer h4 {
+padding-top: 15px;
+}
+.footer span {
+    color: darkslategray;
+    padding: 0 10px;
+    font-size: small;
 }
