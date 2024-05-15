@@ -13,15 +13,17 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container-fluid">
       <div class="row dog-banner position-relative">
         <nav class="navbar navbar-expand-lg bg-body-tertiary position-absolute">
           <div class="container-fluid">
-            <i class="fa-solid fa-hippo"></i>
+            <i class="fa-solid fa-hippo small-hippo"></i>
             <a class="navbar-brand" href="#">Lovely pets</a>
 
             <button
@@ -49,22 +51,87 @@
                   <a class="nav-link" href="./pages/form.html">Contact us</a>
                 </li>
               </ul>
-              <span class="navbar-text">
-                Call us now! 6175418302
-              </span>
+              <span class="navbar-text"> Call us now! 6175418302 </span>
             </div>
           </div>
         </nav>
-        <div class="custom-shape-divider-bottom-1715781316" style="padding:0">
-          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        <div class="custom-shape-divider-bottom-1715781316" style="padding: 0">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"
+            ></path>
           </svg>
-      </div>
+        </div>
       </div>
 
       <h1 class="p-5 text-center">Our lovely pets</h1>
 
       <div class="row pets-intro position-relative">
+        <div class="col-lg-3 p-5 col-md-6">
+          <div class="card" style="width: 18rem">
+            <img src="./images/hapoo.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn card-animation"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Read about her
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Modal title
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="col-lg-3 p-5 col-md-6">
           <div class="card" style="width: 18rem">
@@ -104,12 +171,11 @@
                         class="btn-close"
                         data-bs-dismiss="modal"
                         aria-label="Close"
-                      >
-                    </button>
+                      ></button>
                     </div>
                     <div class="modal-body">
-                      Some quick example text to build on the card title and make up
-                      the bulk of the card's content.
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
                     </div>
                     <div class="modal-footer">
                       <button
@@ -119,7 +185,6 @@
                       >
                         Close
                       </button>
-                    
                     </div>
                   </div>
                 </div>
@@ -137,134 +202,75 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-                            <!-- Button trigger modal -->
-                            <button
-                            type="button"
-                            class="btn card-animation"
-                            data-bs-toggle="modal"
-                            data-bs-target="#exampleModal"
-                          >
-                            Read about her
-                          </button>
-            
-                          <!-- Modal -->
-                          <div
-                            class="modal fade"
-                            id="exampleModal"
-                            tabindex="-1"
-                            aria-labelledby="exampleModalLabel"
-                            aria-hidden="true"
-                          >
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="exampleModalLabel">
-                                    Modal title
-                                  </h1>
-                                  <button
-                                    type="button"
-                                    class="btn-close"
-                                    data-bs-dismiss="modal"
-                                    aria-label="Close"
-                                  >
-                                </button>
-                                </div>
-                                <div class="modal-body">
-                                  Some quick example text to build on the card title and make up
-                                  the bulk of the card's content.
-                                </div>
-                                <div class="modal-footer">
-                                  <button
-                                    type="button"
-                                    class="btn btn-secondary"
-                                    data-bs-dismiss="modal"
-                                  >
-                                    Close
-                                  </button>
-                                
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn card-animation"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Read about her
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Modal title
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="col-lg-3 p-5 col-md-6">
-          <div class="card" style="width: 18rem">
-            <img src="./images/hapoo.jpeg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-                           <!-- Button trigger modal -->
-                           <button
-                           type="button"
-                           class="btn card-animation"
-                           data-bs-toggle="modal"
-                           data-bs-target="#exampleModal"
-                         >
-                           Read about her
-                         </button>
-           
-                         <!-- Modal -->
-                         <div
-                           class="modal fade"
-                           id="exampleModal"
-                           tabindex="-1"
-                           aria-labelledby="exampleModalLabel"
-                           aria-hidden="true"
-                         >
-                           <div class="modal-dialog">
-                             <div class="modal-content">
-                               <div class="modal-header">
-                                 <h1 class="modal-title fs-5" id="exampleModalLabel">
-                                   Modal title
-                                 </h1>
-                                 <button
-                                   type="button"
-                                   class="btn-close"
-                                   data-bs-dismiss="modal"
-                                   aria-label="Close"
-                                 >
-                               </button>
-                               </div>
-                               <div class="modal-body">
-                                 Some quick example text to build on the card title and make up
-                                 the bulk of the card's content.
-                               </div>
-                               <div class="modal-footer">
-                                 <button
-                                   type="button"
-                                   class="btn btn-secondary"
-                                   data-bs-dismiss="modal"
-                                 >
-                                   Close
-                                 </button>
-                               
-                               </div>
-                             </div>
-                           </div>
-                         </div>
-            </div>
-          </div>
-        </div>
-
       </div>
 
       <div class="row info">
         <div class="p-wrapper">
-          <p class="animated-paragraph">LovelyPets is a dedicated team of animal enthusiasts who genuinely care about the well-being of all creatures. 
-            Their passion for animals drives them to go above and beyond to ensure every pet is happy and healthy. 
-  
-        With a heartwarming mission to spread joy among animals, LovelyPets takes pride in creating a 
-            loving and nurturing environment. Their happiness truly comes from seeing the wagging tails, purring cats,
-             and contented faces of the animals they care for, making each day a celebration of love and compassion.</p>
-        </div>
-       
+          <p class="animated-paragraph">
+            LovelyPets is a dedicated team of animal enthusiasts who genuinely
+            care about the well-being of all creatures. Their passion for
+            animals drives them to go above and beyond to ensure every pet is
+            happy and healthy. With a heartwarming mission to spread joy among
+            animals, LovelyPets takes pride in creating a loving and nurturing
+            environment. Their happiness truly comes from seeing the wagging
+            tails, purring cats, and contented faces of the animals they care
+            for, making each day a celebration of love and compassion.
+          </p>
 
+          <div class="hippo">
+            <i class="fa-solid fa-hippo"></i>
+          </div>
+        </div>
       </div>
 
       <div class="row">
@@ -297,56 +303,56 @@
                 </tr>
                 <tr>
                   <th scope="row">3</th>
-                  <td >Martha</td>
+                  <td>Martha</td>
                   <td>Cat</td>
                   <td>6 months</td>
                   <td><button class="btn btn-light">more</button></td>
                 </tr>
                 <tr>
                   <th scope="row">4</th>
-                  <td >Fifi</td>
+                  <td>Fifi</td>
                   <td>Cat</td>
                   <td>7 months</td>
                   <td><button class="btn btn-light">more</button></td>
                 </tr>
                 <tr>
                   <th scope="row">5</th>
-                  <td >Asghar</td>
+                  <td>Asghar</td>
                   <td>Parrot</td>
                   <td>1 year</td>
                   <td><button class="btn btn-light">more</button></td>
                 </tr>
                 <tr>
                   <th scope="row">6</th>
-                  <td >Puffy</td>
+                  <td>Puffy</td>
                   <td>Rabbit</td>
                   <td>6 months</td>
                   <td><button class="btn btn-light">more</button></td>
                 </tr>
                 <tr>
                   <th scope="row">7</th>
-                  <td >Martha</td>
+                  <td>Martha</td>
                   <td>Cat</td>
                   <td>6 months</td>
                   <td><button class="btn btn-light">more</button></td>
                 </tr>
                 <tr>
                   <th scope="row">8</th>
-                  <td >Fran</td>
+                  <td>Fran</td>
                   <td>Snake</td>
                   <td>2 months</td>
                   <td><button class="btn btn-light">more</button></td>
                 </tr>
                 <tr>
                   <th scope="row">9</th>
-                  <td >Lili</td>
+                  <td>Lili</td>
                   <td>Dog</td>
                   <td>18 months</td>
                   <td><button class="btn btn-light">more</button></td>
                 </tr>
                 <tr>
                   <th scope="row">10</th>
-                  <td >Mini</td>
+                  <td>Mini</td>
                   <td>Cat</td>
                   <td>4 years</td>
                   <td><button class="btn btn-light">more</button></td>
@@ -356,48 +362,80 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-12 form-wrapper">
+        <div class="col-lg-3 col-md-12 form-wrapper p-5">
           <div class="">
             <h3>Ready to adapt? write us</h3>
             <form>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
               </div>
               <div class="mb-3">
-                <label for="textarea" class="form-label">Write about your intention:</label>
-                <input type="password" class="form-control" id="textarea">
+                <label for="textarea" class="form-label"
+                  >Write about your intention:</label
+                >
+                <input type="password" class="form-control" id="textarea" />
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
 
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Select the form
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li>
+                    <a class="dropdown-item active" href="#">Adoption form</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Tax form</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Eligibility form</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">rules</a></li>
+                </ul>
+              </div>
+              <button type="submit" class="btn mt-3 btn-pink">Submit</button>
+            </form>
           </div>
         </div>
       </div>
     </div>
     <div class="footer">
-     <h4 class="text-center">Follow us on social media</h4>
-     <ul>
-      <li>
-        <a href="https://www.instagram.com" target="_blank">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-      </li>
+      <h4 class="text-center">Follow us on social media</h4>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
 
-      <li>
-        <a href="https://www.instagram.com" target="_blank">
-          <i class="fa-brands fa-youtube"></i>
-        </a>
-      </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
 
-      <li>
-        <a href="https://www.instagram.com" target="_blank">
-          <i class="fa-brands fa-facebook"></i>
-        </a>
-      </li>
-     </ul>
-     <span>@2024 made by Zahra Joulaei</span>
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+      </ul>
+      <span>@2024 made by Zahra Joulaei</span>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

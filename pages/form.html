@@ -16,25 +16,84 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary position-absolute">
+        <div class="container-fluid">
+          <i class="fa-solid fa-hippo small-hippo"></i>
+
+          <a class="navbar-brand" href="../index.html">Lovely pets</a>
+
+       
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a>
+              </li>
+            </ul>
+            <span class="navbar-text"> Call us now! 6175418302 </span>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+      </nav>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="flex-form form-wrapper">
+        <div class="col-6">
+     
+          <img src="../images/girl.jpeg" width="80%"/>
+      
+      </div>
+
+      <div class="col-6">
+        <h5>Please fill the following form to adopt your pet</h5>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Full name</label>
+            <input type="text" class="form-control" id="name" >
+            
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">phone</label>
+            <input type="text" class="form-control" id="phone">
+          </div>
+
+          <div class="mb-3">
+            <label for="textarea" class="form-label">have you ever had pets?</label>
+            <input type="radio" id="huey" name="drone" value="huey" checked />
+            <label for="huey">Yes</label>
+            <input type="radio" id="no" name="drone" value="no" checked />
+            <label for="no">No</label>
+          </div>
+
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-pink">Submit</button>
       </form>
+      </div>
+      </div>
+
+    </div>
+  </div>
+    
 
 
+<div class="container-fluid">
+  <div class="row">
     <div class="footer form-footer">
       <h4 class="text-center">Follow us on social media</h4>
       <ul>
@@ -43,13 +102,13 @@
            <i class="fa-brands fa-instagram"></i>
          </a>
        </li>
- 
+  
        <li>
          <a href="https://www.instagram.com" target="_blank">
            <i class="fa-brands fa-youtube"></i>
          </a>
        </li>
- 
+  
        <li>
          <a href="https://www.instagram.com" target="_blank">
            <i class="fa-brands fa-facebook"></i>
@@ -58,5 +117,9 @@
       </ul>
       <span>@2024 made by Zahra Joulaei</span>
      </div>
+  </div>
+
+</div>
+   
 </body>
 </html>

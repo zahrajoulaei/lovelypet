@@ -36,12 +36,15 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 .animated-paragraph {
    background-color: rgba(255,255,255,.5);
    transition: background-color 2s ease;
    border-radius: 16px;
+       margin-top: 33px;
+    padding: 20px;
 }
 
 .animated-paragraph:hover {
@@ -95,7 +98,7 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-.form-wrapper input:last-child{
+.form-wrapper #textarea{
     height: 220px;
 }
 .footer {
@@ -130,4 +133,35 @@ padding-top: 15px;
     color: darkslategray;
     padding: 0 10px;
     font-size: small;
+}
+
+.small-hippo {
+    animation: funnyMove 3s linear infinite;
+}
+
+.hippo {
+    font-size: 80px;
+    animation: funnyMove 3s linear infinite;
+}
+.btn-pink {
+    background-color: #ff006e !important;
+    border: none;
+}
+
+@keyframes funnyMove {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+    25% {
+        transform: translateX(50px) rotate(15deg);
+    }
+    50% {
+        transform: translateX(100px) rotate(0deg);
+    }
+    75% {
+        transform: translateX(50px) rotate(-15deg);
+    }
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
 }

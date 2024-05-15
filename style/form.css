@@ -1,8 +1,25 @@
 body {
-    background-color: pink;
+    background-color: #EDA5AF;
 }
 .form-footer {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    bottom:0;
+    bottom: 0;
+    left: 0;
+}
+.form-wrapper {
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 12px;
+    padding: 40px;
+}
+.form-wrapper img {
+    border-radius: 50%;
+
+}
+.flex-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
