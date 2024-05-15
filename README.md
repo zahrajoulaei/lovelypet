@@ -46,7 +46,10 @@ The website includes custom CSS animations and transitions to enhance user exper
 
 ## Sceenshots
 
-![Home Page](./images/4.png)
+![Pages](./images/4.png)
+![Pages](./images/3.png)
+![Pages](./images/2.png)
+![Pages](./images/1.png)
 
 
 ## Contact
