@@ -1,9 +1,13 @@
+.gallery-page {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
 .gallery-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 .gallery-margin {
-    margin-bottom: 135px;;
+  margin-bottom: 135px;
 }

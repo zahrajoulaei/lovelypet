@@ -2,6 +2,10 @@ body {
   padding: 0;
   margin: 0;
 }
+.index-page {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
 
 .dog-banner {
   height: 550px;

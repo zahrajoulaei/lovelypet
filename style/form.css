@@ -1,25 +1,29 @@
 body {
-    background-color: #EDA5AF;
+  background-color: #eda5af;
+}
+
+.form-page {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
 }
 .form-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 .form-wrapper {
-    background-color: white;
-    margin-top: 80px;
-    border-radius: 12px;
-    padding: 40px;
+  background-color: white;
+  margin-top: 80px;
+  border-radius: 12px;
+  padding: 40px;
 }
 .form-wrapper img {
-    border-radius: 50%;
-
+  border-radius: 50%;
 }
 .flex-form {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
