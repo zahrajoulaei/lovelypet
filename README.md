@@ -11,7 +11,7 @@
 
 check the liv demo here:
 
-https://main--cheerful-profiterole-addde5.netlify.app/
+https://lovelypets-zar.netlify.app
 ## Features
 
 - **Home Page**: An inviting introduction to the website with an overview of the services and offerings.
